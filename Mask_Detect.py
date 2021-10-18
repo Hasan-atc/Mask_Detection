@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-vid = cv2.VideoCapture(0)
+vid = cv2.VideoCapture(0)  
 
 while True:
     x, frame = vid.read()
